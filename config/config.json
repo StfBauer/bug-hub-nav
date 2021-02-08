@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hub-nav-bug-fix-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/hubNavBugFix/HubNavBugFixApplicationCustomizer.js",
+          "manifest": "./src/extensions/hubNavBugFix/HubNavBugFixApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HubNavBugFixApplicationCustomizerStrings": "lib/extensions/hubNavBugFix/loc/{locale}.js"
+  }
+}

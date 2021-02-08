@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="HubNavBugFix"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="2574e41d-e360-4121-9451-4c00c0624423"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
